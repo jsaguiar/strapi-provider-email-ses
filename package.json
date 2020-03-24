@@ -1,8 +1,8 @@
 {
   "name": "strapi-provider-email-amazon-ses-sdk",
-  "version": "3.0.0-beta.17.5",
+  "version": "0.1.0",
   "description": "Amazon SES provider for strapi email (uses AWS SDK)",
-  "homepage": "https://github.com/bashconsole",
+  "homepage": "https://github.com/jsaguiar/strapi-provider-email-ses",
   "keywords": [
     "email",
     "strapi",
@@ -22,23 +22,23 @@
     "isProvider": true
   },
   "author": {
-    "email": "zubovsky@gmail.com",
-    "name": "Oleksii Zubovsky",
-    "url": "https://github.com/bashconsole"
+    "email": "jsaguiar@me.com",
+    "name": "Joao Aguiar",
+    "url": "https://github.com/jsaguiar"
   },
   "maintainers": [
     {
-      "name": "Oleksii Zubovsky",
-      "email": "zubovsky@gmail.com",
-      "url": "https://github.com/bashconsole"
+      "email": "jsaguiar@me.com",
+      "name": "Joao Aguiar",
+      "url": "https://github.com/jsaguiar"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bashconsole/strapi-provider-email-amazon-ses-sdk.git"
+    "url": "git@github.com:jsaguiar/strapi-provider-email-ses.git"
   },
   "bugs": {
-    "url": "https://github.com/bashconsole/strapi-provider-email-amazon-ses-sdk/issues"
+    "url": "https://github.com/jsaguiar/strapi-provider-email-ses/issues"
   },
   "engines": {
     "node": ">=10.0.0",
@@ -46,7 +46,6 @@
   },
   "license": "MIT",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
-
 }
