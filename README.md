@@ -13,7 +13,7 @@ Amazon Simple Email Service provider based on AWS SDK for Strapi email plugin.
 
 ## Installation
 
-`npm install strapi-provider-email-amazon-ses-sdk`
+`npm install strapi-provider-email-ses`
 
 ## Programmatic usage
 
